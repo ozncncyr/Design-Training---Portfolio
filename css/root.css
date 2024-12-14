@@ -7,7 +7,15 @@
 }
 
 body {
-    font-family: "sora", sans-serif;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 500;
+}
+
+body b{
+    font-weight: 700;
 }
 
 h1,
@@ -36,67 +44,164 @@ a {
 }
 
 h1 {
-    font-size: 36px;
-    line-height: 44px;
-    letter-spacing: -0.02em;
+    font-size: 76px;
+    line-height: 76px;
+    letter-spacing: -0.015em;
+    font-weight: 600;
 }
 
 h2 {
-    font-size: 32px;
-    line-height: 40px;
-    letter-spacing: -0.02em;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -0.015em;
+    font-weight: 600;
 }
 
 h3 {
-    font-size: 28px;
+    font-size: 32px;
     line-height: 32px;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.015em;
+    font-weight: 600;
 }
 
-h4 {
-    font-size: 24px;
-    line-height: 28px;
-    letter-spacing: -0.02em;
+.button{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    width: Hug (157px)px;
+    height: Hug (52px)px;
+    padding: 16px 32px;
+    border-style: none;
+    border-radius: 30px;
+    background-color: #7A3145;
+    color: #FBFBFB;
 }
 
-h5 {
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: -0.02em;
+.button:hover{
+    background-color: #D4BFC4;
+    color: #7A3145;
 }
 
-h6 {
+.button:active {
+    background-color: #FBFBFB;
+    color: #7A3145;
+}
+
+.m-button{
     font-size: 16px;
+    font-weight: 500;
     line-height: 20px;
     letter-spacing: -0.02em;
+    text-align: center;
+    width: Hug (114px)px;
+    height: Hug (44px)px;
+    border-radius: 12px;
+    opacity: 0px;
+    color: #FBFBFB;
+    border-color: #FBFBFB;
 }
 
-.p1 {
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
+.m-button:hover {
+    background-color: #D4BFC4;
+    color: #7A3145;
 }
 
-.p2 {
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.02em;
+.m-button:active {
+    background-color: #FBFBFB;
+    color: #7A3145;
 }
 
-.p3 {
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+.input {
+    width: 422px;
+    height: 52px;
+    padding: 16px 0 16px 16px;
+    border: 1px solid #858585;
+    border-radius: 30px;
 }
 
-.btn-text-1 {
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
+.input:hover,
+.input:focus {
+    border-color: #7A3145;
 }
 
-.btn-text-2 {
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.02em;
+.input:invalid{
+    border-color: #E74A3B;
 }
+.input:valid{
+    border-color: green;
+ }
+
+ @media (min-width: 768px) and (max-width: 1279px)
+ {
+    .button:hover {
+        background-color: #7A3145;
+        color: #FBFBFB;
+    }
+
+    .m-button:hover {
+        color: #FBFBFB;
+        border-color: #FBFBFB;
+        opacity: 0;
+    }
+
+    .input {
+        width: auto;
+    }
+ }
+
+@media (min-width: 320px) and (max-width: 767px) 
+ {
+    body {
+        font-size: 14px;
+    }
+
+    body b {
+        font-weight: 700;
+    }
+
+    h1 {
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    h2 {
+        font-size: 48px;
+        line-height: 52px;
+    }
+
+    h3 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .button:hover {
+        background-color: #7A3145;
+        color: #FBFBFB;
+    }
+
+    .m-button {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        text-align: center;
+        width: Hug (114px)px;
+        height: Hug (44px)px;
+        border-radius: 12px;
+        opacity: 0px;
+        color: #FBFBFB;
+        border-color: #FBFBFB;
+    }
+
+    .m-button:hover {
+        opacity: 0;
+        border-color: #FBFBFB;
+        color: #FBFBFB;
+    }
+
+    .input {
+        width: auto;
+    }
+ }
