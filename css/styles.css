@@ -1,0 +1,157 @@
+/* Header Styles */
+body{
+        background-color: brown;
+}
+
+
+.header{
+    margin-top: 32px;
+    padding: 0 100px;
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+}
+
+.header-logo-parts{
+    display: flex;
+    gap: 8.89px;
+    align-items: center;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 20px;
+}
+
+.header-buttons .list{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+/* Hero Styles */
+
+.hero{
+    background-color: #576F35;
+    color: #fbfbfb;
+    height: 796px;
+    display: flex;
+}
+
+.hero-left{
+    width: calc(100% / 2);
+    padding: 0 38px 52px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 128px;
+}
+
+.hero-title{
+    text-transform: uppercase;
+
+}
+
+.hero-right{
+    width: calc(100% / 2);
+    background: url(../images/pc/header.png) no-repeat,
+        linear-gradient(#576f35, #576f35);
+    background-size: cover; 
+}
+
+/* How It Works Styles */
+
+.how-it-works{
+    height: 760px;
+    display: flex;
+}
+
+.how-it-works-left {
+    width: calc(100% / 2);
+    background-color: #7a3145;
+    padding: 100px calc((50% - 440px) / 2);
+}
+
+.how-it-works-left .images{
+    height: 560px;
+    width: 440px;
+    background: url(../images/pc/hero.png) no-repeat,
+    linear-gradient(#7a3145, #7a3145);
+}
+
+.how-it-works-right{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #576F35;
+    color: #fbfbfb;
+}
+
+.how-it-works-right .main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.hiw-right-title{
+    text-transform: uppercase;
+}
+
+.hiw-right-title span{
+    color: #D4BFC4;
+}
+
+.how-it-works-right .list{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.sub-content .list .list-item{
+    padding: 12px 15px 12px 24px;
+    display: inline-flex;
+    gap: 24px;
+    align-items: center;
+    border: 0px solid none;
+    border-radius: 15px;
+    background-color: #fbfbfb;
+    color: #858585;
+}
+
+.sub-content .list .list-item .list-item-mark{
+    background-color: #7A3145;
+    color: #fbfbfb;
+    border: 18px solid #7A3145;
+    outline: 5px solid #D4BFC4;
+    border-radius: 50%;
+    background: #7A3145;
+    font-size: 18;
+}
+
+/* Adv Styles */
+
+.adv{
+    background-color: #fbfbfb;
+    text-transform: uppercase;
+    padding: 100px;
+}
+
+.adv-title{
+    padding-left: 16px;
+}
+
+.adv span{
+    background-color: #576F35;
+    color: #fbfbfb;
+    border: 0px solid none;
+    border-radius: 14px;
+}
+
+/* Vegetables Styles */
