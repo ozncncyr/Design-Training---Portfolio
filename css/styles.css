@@ -140,7 +140,7 @@ body{
 .adv{
     background-color: #fbfbfb;
     text-transform: uppercase;
-    padding: 100px;
+    padding: 100px calc((100% - 1080px) / 2);
 }
 
 .adv-title{
